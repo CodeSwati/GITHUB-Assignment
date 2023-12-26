@@ -1,0 +1,78 @@
+Q1) Explain what version control is and its importance in software development?
+Ans)Version control software keeps track of every modification to the code in a special kind of database.
+Importance->  Version control serves as a safety net to protect the source code from irreparable harm, giving the development team the freedom 
+to experiment without fear of causing damage or creating code conflicts.
+
+Q2)Explain the Git Workflow, including the staging area, working directory, and repository.
+Ans)a)Working Directory: The working directory is where you perform all your edits and create new files. It holds the current
+ state of your project.
+b)Staging Area: After making changes in your working directory that you want to commit, you first “add” these changes to
+ the staging area. It takes a snapshot of the changes, preparing them for a commit.
+c)Repository: When you’re ready, you “commit” the changes that have been added to your staging area. This makes a permanent
+ snapshot of the staging area’s state, storing it in your Git repository as a commit. This commit records who made it, when, and other relevant metadata.
+
+Q3)Explain what .gitignore is and why it’s important in version control.
+Ans)The .gitignore file is a text file that tells Git which files or folders to ignore in a project.
+
+Importance-> 1. Preventing Versioning of Unnecessary Files - Some files generated during the development process, such as
+compiled binaries, log files, or temporary files, are not necessary for version control and can be quite large.
+Ignoring them prevents cluttering the repository with unnecessary versions and saves space.
+2. Avoiding Sensitive Data Exposure - it can help prevent sensitive data like API keys, passwords, or other
+confidential information from being accidentally committed and shared in the repository.
+3. Enhancing Repository cleanliness - By excluding non-essential files, the repository remains clean and
+focused on essential source code and configuration files. This makes it easier to navigate and manage the
+repository.
+
+Q4. Briefly explain what GitHub is and how it facilitates collaboration and version control also name some
+alternatives to GitHub.
+
+Ans)GitHub is a platform where we can upload a copy of our git repository hosted either on github.com. More than just uploading 
+our git repository it allow us to collaborate much more easily with other .
+
+Alternatives to GitHub ->
+1) GitLab
+2) BitBucket
+3) SourceForge
+4)Launchpad
+
+Q5)Describe the process of contributing to any open-source project on GitHub in a step-by-step manner.
+Ans)Step 1: Sign into GitHub-
+Sign into your GitHub account, or create a free GitHub account if you don't have one.
+
+Step 2: Fork the project repository
+Find the project's repository on GitHub, and then "fork" it by clicking the Fork button in the upper right corner.This creates a copy of the project 
+repository in your GitHub account. In the upper left corner.
+
+Step 3: Clone your fork
+While still in your repository, click the green Clone or download button and then copy the HTTPS URL.
+
+Step 4: Navigate to your local repository
+Since the clone was downloaded into a subdirectory of your working directory, you can navigate to it using: cd NAME_OF_REPOSITORY.
+
+Step 5- Create A New Branch
+The next step is to create a new branch to carry out your development. Navigate to the local folder of the cloned repository and use the git checkout
+ command to create a new branch. For instance, we will create a branch called new-user-contribution.
+
+Step 6 - Develop, Stage, and Commit
+In the new branch, you can use your favorite IDE, Text Editor, or any tools to make the necessary changes to the source code. We will 
+simply add a new user to the Contributors.md file. Then you need to stage these changes and commit the changes to the repository. Use the 
+"git add ." to add the modified files and then the "git commit" command to commit the changes.
+
+Step 7 - Push the Changes
+The committed changes still reside only in your local environment. Therefore, you need to push these changes to the forked GitHub repository 
+in your account. It can be achieved by using the git push command.
+
+Step 8 - Create a Pull Request
+If pushing is successful, you should see a message indicating the new push with the "Compare and pull request" button when visiting the GitHub 
+repository. Click on that button to make a pull request
+
+
+Q6) Deploy Tailwind projects named Youtube, slack, and Gmail clones on GitHub pages and share the
+deployed link of those three. Expected output - Live hosted URL Link of your deployed respective website with
+GitHub pages.
+
+Ans)Youtube clone-> https://codeswati.github.io/Youtube_clone-using-taliwind/
+
+slack clone -> https://codeswati.github.io/Slack-Clone/
+
+Gmail clone-> https://codeswati.github.io/Gmail-clone-using-tailwind/ 
